@@ -1,0 +1,426 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+    },
+    {
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/51HLy+NclnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/718u+mLrSGL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "4",
+      "image": "https://m.media-amazon.com/images/I/51Xzs9I9kyL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/61XzqvXz1pL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/712DeZyIEqL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "9",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "10",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "11",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "12",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "13",
+      "image": "https://m.media-amazon.com/images/I/61mM9SRmJnL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "14",
+      "image": "https://m.media-amazon.com/images/I/718u+mLrSGL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "15",
+      "image": "https://m.media-amazon.com/images/I/718u+mLrSGL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    },
+    {
+      "id": "16",
+      "image": "https://m.media-amazon.com/images/I/718u+mLrSGL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "kurta & sets",
+      "subtitle": "The Souled Store Official Peanuts: Carefree Women and Girls Short..",
+      "price" : "400"
+
+    }
+  ],
+  "cart": [],
+  "men": [
+    {
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/51Zh0mRlCyL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "tshirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/51OXTHA5syL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "tshirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/71BcMOzi8FL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "belt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness."
+    },
+    {
+      "id": "4",
+      "image": "https://m.media-amazon.com/images/I/61L44BEzb1L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "shirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/61CYVuz0h3L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "pents",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/71wcBX6g21L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "shirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/61mSi8eNHmL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "shirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/614e0XwRV1L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "pents",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "9",
+      "image": "https://m.media-amazon.com/images/I/61WM0bh9ORL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "belt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "10",
+      "image": "https://m.media-amazon.com/images/I/61IZT9dUIqL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "tshirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "11",
+      "image": "https://m.media-amazon.com/images/I/51U2PfEESCL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "tshirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "12",
+      "image": "https://m.media-amazon.com/images/I/617eAlnbbDL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "shirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "13",
+      "image": "https://m.media-amazon.com/images/I/51c7XwIkrDL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "shirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "14",
+      "image": "https://m.media-amazon.com/images/I/51x5guaSOiL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "tshirt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "15",
+      "image": "https://m.media-amazon.com/images/I/51tx199AkoL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "belt",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    },
+    {
+      "id": "16",
+      "image": "https://m.media-amazon.com/images/I/51QjcKvTsdL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "pent",
+      "subtitle": "Louis Philippe Men Cotton Premium Solid Polo T-Shirt Slim Fit with Color Fastness"
+    }
+  ],
+  "electronic": [
+    {
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/61muN7FguKL._AC_UL480_QL65_.jpg",
+      "title": "laptop",
+      "subtitle": "Acer Aspire Lite,13th Gen, Intel Core i3-1305U, 16GB RAM, 512GB SSD, Full HD, 15.6/39.62cm, Windows 11 Home, Steel Gray, 1.59KG, AL15-53, Metal Body, 36 WHR, Thin and Light Premium Laptop"
+    },
+    {
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UL480_QL65_.jpg",
+      "title": "MacBook",
+      "subtitle": "Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera..."
+    },
+    {
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/814WFVz-BCL._AC_UL480_QL65_.jpg",
+      "title": "DEll",
+      "subtitle": "Dell Inspiron 15-3530 Laptop - 15.6 inch FHD, 13th Gen Intel Core i7-1355U, 16GB DDR4 RAM, 512GB SSD, Backlit Keyboard, Windows 11 Home.."
+    },
+    {
+      "id": "4",
+      "image": "https://m.media-amazon.com/images/I/715P4YWFq7L._AC_UL480_QL65_.jpg",
+      "title": "Asus",
+      "subtitle": "ASUS Vivobook 15, Intel Core i3-1315U 13th Gen, 15.6(39.62 cms) FHD, Thin and Light Laptop (8GB RAM/512GB SSD/Win11/MS Office/Backlit"
+    },
+    {
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/71sRBqqrOpL._AC_UL480_QL65_.jpg",
+      "title": "samsung smartwatch",
+      "subtitle": "Samsung Galaxy Watch6 Classic LTE (47mm, Black, Compatible with Android only) | Introducing BP & ECG Features"
+    },
+    {
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/81oS2scJ5GL._AC_UL480_QL65_.jpg",
+      "title": "noice smartwatch",
+      "subtitle": "Noise Twist Go Round dial Smartwatch with BT Calling, 1.39 Display, Metal Build, 100+ Watch Faces, IP68, Sleep Tracking, 100+ Sports Modes, 24/7"
+    },
+    {
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/71rKSnY5XPL._AC_UL480_QL65_.jpg",
+      "title": "boat smartwatch",
+      "subtitle": "boAt Wave Call 2 with 1.83” HD Display, Advanced BT Calling, Functional Crown, Cloud & Custom Watch Faces, Multiple Sports Modes, IP67, HR, Sleep & SPO₂.."
+    },
+    {
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/81WBddwdMbL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "fireboult",
+      "subtitle": "Fire-Boltt Emerald Gemstone-Studded Diamond Cut Smart Watch 27.68mm (1.09 inch) HD Display, Multiple Sports.."
+    },
+    {
+      "id": "9",
+      "image": "https://m.media-amazon.com/images/I/417Wv-rML3L._SR240,220_.jpg",
+      "title": "apple teb",
+      "subtitle": "Apple iPad Air 11″ with M3 chip: Built for Apple Intelligence, Liquid Retina Display, 128GB, 12MP Front/Back Camera, Wi-Fi 6E, Touch ID, All-Day Battery Life — Space Gray"
+    },
+    {
+      "id": "10",
+      "image": "https://m.media-amazon.com/images/I/31JuXYPsUCL._SR480,440_.jpg",
+      "title": "samsung tab",
+      "subtitle": "Samsung Galaxy Tab S9 FE [Smartchoice], RAM 6 GB, ROM 128 GB Expandable, S Pen in-Box, Wi-Fi, IP68 Tablet, Gray"
+    },
+    {
+      "id": "11",
+      "image": "https://m.media-amazon.com/images/I/51VjfZBNlYL._SR480,440_.jpg",
+      "title": "lenovo tab",
+      "subtitle": "Lenovo Yoga Tab Plus AI Tablet with Pen + Keyboard |12.7Display, 3K Resolution, 144 Hz Refresh|16GB RAM, 256GB ROM| Snapdragon 8 Gen 3| 10200 mAh|6 Speakers| USB 3.0 with DP-Out|1Year ADP Free|Teal"
+    },
+    {
+      "id": "12",
+      "image": "https://m.media-amazon.com/images/I/41jnbl0tCmL._SR480,440_.jpg",
+      "title": "",
+      "subtitle": "Xiaomi Pad 7 |Qualcomm Snapdragon 7+ Gen 3 |28.35cm(11.16.."
+    },
+    {
+      "id": "13",
+      "image": "https://m.media-amazon.com/images/I/71dnHOwbEqL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "jbl headphone",
+      "subtitle": "JBL Live 770NC True Adaptive Noise Cancellation Headphones Wireless Over Ear, Spatial Sound, 65Hrs Playtim.."
+    },
+    {
+      "id": "14",
+      "image": "https://m.media-amazon.com/images/I/51UhwaQXCpL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "oneplus nackband",
+      "subtitle": "OnePlus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 Mm Drivers, 10 Mins Charge - 20.."
+    },
+    {
+      "id": "15",
+      "image": "https://m.media-amazon.com/images/I/513ugd16C6L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "boat earphone",
+      "subtitle": "Boat BassHeads 100 in-Ear Headphones with Mic (Black)"
+    },
+    {
+      "id": "16",
+      "image": "https://m.media-amazon.com/images/I/81r4-kfrAvL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "boultaudio airpods",
+      "subtitle": "Boult Audio Z40 True Wireless in Ear Earbuds with 60H Playtime, Zen™ ENC Mic, Low Latency Gaming, Type-C Fast"
+    }
+  ],
+  "child": [
+    {
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/61h19vb6-yL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Frock",
+      "subtitle": "A.T.U.N. (ALL THINGS UBER NICE)Girls Cotton Striped Knee Length Shirt Dress | Full Sleeve..."
+    },
+    {
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/51-mweuyGhL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Boys pair",
+      "subtitle": "100% Linen Shirt & Pant Co-ord Set for Kids | Elegant &.."
+    },
+    {
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/51a0QHAi7jL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "baby boy pair",
+      "subtitle": "Baby Boys Cotton Dino Printed T-Shirt With Shorts Sets Of.."
+    },
+    {
+      "id": "4",
+      "image": "Baby Boys Cotton Dino Printed T-Shirt With Shorts Sets Of",
+      "title": "lion pair",
+      "subtitle": "Kids Dress for Boys | Printed Round Neck Full Sleeve T-shirt"
+    },
+    {
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/71HWl4ZL2rL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "unisex coset",
+      "subtitle": "Unisex's Cartoon Modern Fit H/S Jhabla CoSet"
+    },
+    {
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/81UNxRxjT8L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "organic pair",
+      "subtitle": "The Boo Boo Club Muslin Shirt and Short Set GOTS Certified Organic Cotton | Short Sleeve Snap Button Vest | Summer Wear Set | Printed Shirt with short"
+    },
+    {
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/51dZ7VawaBL._AC_UL960_FMwebp_QL65_.jpg",
+      "title": "Night Suit",
+      "subtitle": "CLAP Kids Cotton Printed Full Sleeves Night Suit"
+    },
+    {
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/81iCPGSMhCL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Unisex Pair",
+      "subtitle": "Unisex Cotton Fleece Full Sleeve Track Suit for Boys &.."
+    },
+    {
+      "id": "9",
+      "image": "https://m.media-amazon.com/images/I/51kIrrE5f3L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "printed pair",
+      "subtitle": "Baby Boys Cotton Printed T-Shirt with Shorts in Clothing.."
+    },
+    {
+      "id": "10",
+      "image": "https://m.media-amazon.com/images/I/51NctJ+OyJL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "black pair",
+      "subtitle": "Trendy Printed Cotton Blend Hoodie T-shirt Jogger Trackpant.."
+    },
+    {
+      "id": "11",
+      "image": "https://m.media-amazon.com/images/I/91vfBwgmOML._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "yellow pair",
+      "subtitle": "Baby Girls Yellow Ethnic Clothing Set, Mirror Work.."
+    },
+    {
+      "id": "12",
+      "image": "https://m.media-amazon.com/images/I/71hZBx4p0mL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Unisex Pair",
+      "subtitle": "Cotton Clothing Sets for Boys & Girls - Unisex Clothing Sets Full.."
+    },
+    {
+      "id": "13",
+      "image": "https://m.media-amazon.com/images/I/51MlXLE+9pL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Boys pair",
+      "subtitle": "BabyGo 100% Cotton Romper/Summer clothes/Creeper/new born/infent wear/for baby Boys (3-6 Months, SKY3)"
+    },
+    {
+      "id": "14",
+      "image": "https://m.media-amazon.com/images/I/917RCbcPaDL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "pair",
+      "subtitle": "Baby Boys & Baby girls Cotton Printed Round Neck Half Sleeve.."
+    },
+    {
+      "id": "15",
+      "image": "https://m.media-amazon.com/images/I/61Z5BNcJHIL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "girl pair..",
+      "subtitle": "Full Sleeves Designer Clothing Set for Baby Girls"
+    },
+    {
+      "id": "16",
+      "image": "https://m.media-amazon.com/images/I/51Zjcqm9SzL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Boys pair",
+      "subtitle": "Boy clothing set || cotton clothing set for boy || T shirt.."
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women Wear</title>
+  <link rel="stylesheet" href="women-wear.css">
+  <link rel="stylesheet" href="index.css">
+  <!-- bootstap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- over  -->
+  <!-- ICON  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- slider  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- tailwind  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   <!-- sweetalert  -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+
+<body>
+
+  <header class="container-fluid  navbar navbar-expand-lg p-3" id="header1">
+    <div class=" h-100 " style="width: 10%;">
+      <!-- <link href="image/ref=nav_logo.htm"> -->
+      <a href="index.html">
+      <img src="image/mishri.png" class="navbar-brand  w-100 h-100 "></a>
+    </div>
+
+
+    <div class=" justify-content-evenly ms-1  d-flex p-2  h-100 ">
+      <i class="bi mt-2 bi-geo-alt text-light"></i>
+      <div class="ms-2">
+        <spam class="text-light ">Delivering to Surat 395007</spam>
+        <p class="text-light">
+          Update location
+        </p>
+      </div>
+    </div>
+    <div class="w-50 ms-2">
+      <div class="input-group  ">
+        <span class="input-group-text h-50" id="basic-addon1" style="background-color: rgb(230, 230, 230);">
+          <button class="btn btn-outline-secondary dropdown-toggle border-0 " type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">All</button>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="#">All Categories</a></li>
+            <li><a class="dropdown-item" href="#">Amazon Devices</a></li>
+            <li><a class="dropdown-item" href="#">Amazon Fashion</a></li>
+            <li><a class="dropdown-item" href="#">Amazon Pharmacy</a></li>
+            <li><a class="dropdown-item" href="#">Appliances</a></li>
+            <li><a class="dropdown-item" href="#">Apps & Games</a></li>
+            <li><a class="dropdown-item" href="#">Audible Audiobooks</a></li>
+            <li><a class="dropdown-item" href="#">Baby</a></li>
+            <li><a class="dropdown-item" href="#">Beauty</a></li>
+            <li><a class="dropdown-item" href="#">Books</a></li>
+            <li><a class="dropdown-item" href="#">Car & Motorbike</a></li>
+            <li><a class="dropdown-item" href="#">Clothing & Accessories</a></li>
+            <li><a class="dropdown-item" href="#">Collectibles</a></li>
+            <li><a class="dropdown-item" href="#">Computers & Accessories</a></li>
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
+            <li><a class="dropdown-item" href="#">Furniture</a></li>
+            <li><a class="dropdown-item" href="#">Garden & Outdoors</a></li>
+            <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+            <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+            <li><a class="dropdown-item" href="#">Industrial & Scientific</a></li>
+          </ul>
+        </span>
+        <input type="text" class="form-control " placeholder="Username" aria-label="Username"
+          aria-describedby="basic-addon1">
+        <span class="input-group-text " style="background-color: rgb(254, 189, 105);"><i
+            class="bi bi-search"></i></span>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle border-0" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false" style="background: transparent;">
+          EN
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label ps-1" for="flexCheckDefault">
+                English
+              </label></a></li>
+          <hr>
+          <li><a class="dropdown-item" href="#"> <input class="form-check-input" type="checkbox" value=""
+                id="flexCheckDefault">
+              <label class="form-check-label ps-1" for="flexCheckDefault">
+                Hindi
+              </label></a></li>
+          <li><a class="dropdown-item" href="#"> <input class="form-check-input" type="checkbox" value=""
+                id="flexCheckDefault">
+              <label class="form-check-label ps-1" for="flexCheckDefault">
+                Gujarati
+              </label></a></li>
+
+          <li><a class="dropdown-item" href="#"> <input class="form-check-input" type="checkbox" value=""
+                id="flexCheckDefault">
+              <label class="form-check-label ps-1" for="flexCheckDefault">
+                Spanish
+              </label></a></li>
+
+          <li><a class="dropdown-item" href="#"> <input class="form-check-input" type="checkbox" value=""
+                id="flexCheckDefault">
+              <label class="form-check-label ps-1" for="flexCheckDefault">
+                Italic
+              </label></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- next time  -->
+
+    <button type="button" class="btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <span style="font-size: 12px; " class="pe-4">Hello,Sign in</span>
+      <h5 style="font-size: 15px;">Account & Lists</h5>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="w-50 m-auto" style="height: 50px;">
+              <img src="image/b..png" class="w-100" style="position: relative; bottom: 50px; left: 40px;">
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="rounded-3 w-75 p-4 border border-1 m-auto" style="min-height: 300px;">
+              <h2>Sign in</h2>
+              <label class="input-label pt-3">Mobile Number / Email</label>
+              <input type="text" class="form-control" id="phoneInput">
+              <button type="button" class="btn form-control mt-3" style="background-color: #FFD814;"
+                onclick="generateOTP()">Get OTP</button>
+
+              <div id="otpSection" class="mt-3" style="display: none;">
+                <p>OTP: <b id="generatedOtp"></b></p>
+                <input type="text" class="form-control" id="otpInput" placeholder="Enter OTP">
+                <button type="button" class="btn btn-success w-100 mt-2" onclick="verifyOTP()">Verify OTP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="">
+      <button type="button " style=" background: transparent;" class="btn border-0 btn-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"
+        data-bs-title="New Customer ? Sign up here">
+        <span style="font-size: 12px; " class="pe-3">Return</span>
+        <h5 style="font-size: 16px;"> & Order</h5>
+      </button>
+    </div>
+
+    <div class="text-light fs-4">
+      <i class="bi bi-cart"></i> <a href="card.html" class="text-decoration-none fs-5 text-light">Cart</a>
+    </div>
+
+
+
+  </header>
+
+   <header class="container-fluid d-flex justify-content-evenly align-items-center" id="header2">
+
+    <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+      aria-controls="offcanvasExample">
+      <i class="bi bi-list "></i> All
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header" style="background-color: rgb(35, 47, 62);">
+        <i class="bi bi-person-circle text-light fs-4 ms-3  me-auto"></i>
+        <h5 class="text-light pt-1 me-auto pe-auto" style="position: relative;
+          right: 80px;">Hello, sign in</h5>
+        <button type="button" class="btn-close text-light " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h5>Trending</h5>
+        <li class="nav-item p-2" id="a">Best Sellers <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">New Releases <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Movers and Shakers <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <hr>
+        <h5>Shop by Category</h5>
+        <li class="nav-item p-2" id="a"><a href="electronic.html" class="nav-link"> Moblie & Computer <i
+              class="fa-solid fa-chevron-right float-end"></i></a></li>
+        <li class="nav-item p-2" id="a"><a href="child.html" class="nav-link"> Child"s Fashion <i
+              class="fa-solid fa-chevron-right float-end"></i></a>
+        </li>
+        <li class="nav-item p-2" id="a"><a href="menwear.html" class="nav-link"> Men's Fashion <i
+              class="fa-solid fa-chevron-right float-end"></i></a></li>
+        <li class="nav-item p-2" id="a"> <a href="women wear.html" class="nav-link"> Women's Fashion <i
+              class="fa-solid fa-chevron-right float-end"></i></a></li>
+
+
+        <hr>
+        <h5>Digital Content and Devices</h5>
+        <li class="nav-item p-2" id="a">Echo & Alexa <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Fire TV <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Kindle E-Readers & eBooks <i class="fa-solid fa-chevron-right float-end"></i>
+        </li>
+        <li class="nav-item p-2" id="a">Audible Audiobooks <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Amazon Prime Video <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Amazon Prime Music <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <hr>
+        <h5>Programs & Features</h5>
+        <li class="nav-item p-2" id="a">Gift Cards & Mobile Recharges <i
+            class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Amazon Launchpad <i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Handloom and Handicrafts<i class="fa-solid fa-chevron-right float-end"></i></li>
+
+        <hr>
+        <h5>Help & Settings</h5>
+        <li class="nav-item p-2" id="a">Your Account<i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Customer Service<i class="fa-solid fa-chevron-right float-end"></i></li>
+        <li class="nav-item p-2" id="a">Sign in<i class="fa-solid fa-chevron-right float-end"></i></li>
+
+        <hr>
+      </div>
+    </div>
+    <nav class="navbar me-auto">
+      <ul class="navbar nav">
+        <li class="nav-item"><a
+            href="https://www.mxplayer.in/?utm_source=perf_g&utm_medium=web&utm_campaign=Sem_brand_21732594131|165059303182|mx%20player&gad_source=1&gad_campaignid=21732594131&gbraid=0AAAAACj0yj8LxA46tvHBU41y3dXJVSQjY&gclid=CjwKCAjw7MLDBhAuEiwAIeXGIe1Iq77WzKbKeM6rwI9m4j1V4EJBIIywCKeHZ6IB8DO8tHUicVnR_hoC8FYQAvD_BwE"
+            class="nav-link text-light">MX player</a></li>
+        <li class="nav-item"><a href="sell.html" class="nav-link text-light">Sell</a></li>
+        <li class="nav-item"><a href="bestseller.html" class="nav-link text-light">Best Sellers</a></li>
+        <li class="nav-item"><a href="Fresh.html" class="nav-link text-light">Fresh</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-light">Mobiles</a></li>
+        <li class="nav-item"><a href="prime.html  " class="nav-link text-light">Prime<i
+              class="fa-solid fa-caret-down"></i></a></li>
+        <li class="nav-item"><a href="customer-service.html" class="nav-link text-light">Customer Service</a></li>
+        <!-- <li class="nav-item"><a href="" class="nav-link text-light">New Releases</a></li> -->
+        <li class="nav-item"><a href="fashion.html" class="nav-link text-light">Fashion</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-light">Amazon Pay</a></li>
+        <li class="nav-item"><a href="" class="nav-link text-light"> Electronics </a></li>
+        <li class="nav-item"><a href="" class="nav-link text-light"> Home & Kitchen </a></li>
+        <li class="nav-item"><a href="" class="nav-link text-light">Computers</a></li>
+        <li class="nav-item"><a href="kindleeBooks.html" class="nav-link text-light">Books</a></li>
+        <!-- <li class="nav-item"><a href="" class="nav-link text-light">Car & Motorbike</a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+
+  <header class="d-flex p-2 border border-1 border-secondary border-start-0 border-end-0" id="header3">
+    <div class="">
+      <a href="" class="navbar-brand fs-4 fw-bold ps-3">Amazon Fashion</a>
+    </div>
+
+    <ul class="nav ms-auto">
+      <li class="nav-item"><a href="" class="nav-link ps-5  text-dark">Women</a></li>
+      <li class="nav-item"><a href="" class="nav-link ps-5  text-dark">Men</a></li>
+      <li class="nav-item"><a href="" class="nav-link ps-5  text-dark">Kids</a></li>
+      <li class="nav-item"><a href="" class="nav-link ps-5  text-dark">Bags & Luggage</a></li>
+      <li class="nav-item"><a href="" class="nav-link ps-5  text-dark">Sportwear</a></li>
+      <li class="nav-item"><a href="" class="nav-link ps-5 text-dark">Sales & Deals</a></li>
+    </ul>
+
+
+
+
+  </header>
+  <section class="d-flex border border-danger">
+    <aside class="  p-3 " style="width: 16%;  border: 1px solid grey;">
+      <p class="fw-bold ">Amazon Fashion</p>
+      <input class="form-check-input" type="checkbox">
+      <label class="form-check-label"><a href="" class="nav-link">Top Brands</a></label><br>
+      <input class="form-check-input" type="checkbox">
+      <label class="form-check-label"><a href="" class="nav-link">Made for Amazon</a></label><br>
+      <input class="form-check-input" type="checkbox">
+      <label class="form-check-label"><a href="" class="nav-link">Preium Brands</a></label><br>
+      <p class="fw-bold pt-2 ">Categories</p>
+      <spam class="">Clothing & Accessories</spam>
+      <p class="fw-bold pt-2 ps-2">Women</p>
+      <ul class="nav d-block ">
+        <li class="nav-item ps-2">Western Wear</li>
+        <li class="nav-item ps-2">Ethnic Wear</li>
+        <li class="nav-item ps-2">Lingerie & Nightdress</li>
+        <li class="nav-item ps-2">Sportwear</li>
+        <li class="nav-item ps-2">Maternity</li>
+        <li class="nav-item ps-2">Overalls</li>
+        <li class="nav-item ps-2">Swim & Beachwear</li>
+        <li class="nav-item ps-2">Accessories</li>
+        <li class="nav-item ps-2">Sunglasses & Spectacle Frames</li>
+        <li class="nav-item ps-2">Lingerie</li>
+        <li class="nav-item ps-2">Sleep & Lounge Wear</li>
+
+
+      </ul>
+      <p class="fw-bold pt-2 ps-2">Avg. Customer Review</p>
+      <spam class="ps-2" style="color: rgb(255, 164, 28);"><i class="bi bi-star-fill"></i> <i
+          class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+          class="bi bi-star"></i></spam>
+      <spam>& Up</spam><br>
+      <spam class="ps-2" style="color: rgb(255, 164, 28);"> <i class="bi bi-star-fill"></i> <i
+          class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i> <i
+          class="bi bi-star"></i></spam>
+      <spam>& Up</spam><br>
+      <spam class="ps-2" style="color: rgb(255, 164, 28);"><i class="bi bi-star-fill"></i> <i
+          class="bi bi-star-fill"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i>
+      </spam>
+      <spam>& Up</spam><br>
+      <spam class="ps-2" style="color: rgb(255, 164, 28);"><i class="bi bi-star-fill"></i> <i class="bi bi-star"></i> <i
+          class="bi bi-star"></i> <i class="bi bi-star"></i> <i class="bi bi-star"></i> </spam>
+      <spam>& Up</spam><bR>
+
+      <p class="fw-bold pt-2 ps-2">Material</p>
+      <div class="ms-2">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Art Silk</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Cotton</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Crepe</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Georgette</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Net</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Rayon</a></label><br>
+      </div>
+
+      <p class="fw-bold pt-2 ps-2">Brand</p>
+      <div class="ms-2">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">HSR</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">ANNI DESIGNER</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">PLETHEON</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">SNMMIFER</a></label><br>
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label"><a href="" class="nav-link">Bodyband</a></label><br>
+
+      </div>
+      <p class="fw-bold pt-2 ps-2">Price</p>
+      <ul class="nav d-block ">
+        <li class="nav-item ps-2">under $300</li>
+        <li class="nav-item ps-2">$300 - $500</li>
+        <li class="nav-item ps-2">$500 - $1,000</li>
+        <li class="nav-item ps-2">$1,000 - $1,500</li>
+        <li class="nav-item ps-2">Over $1,500</li>
+      </ul>
+    </aside>
+
+    <div class="border border-danger w-100 d-flex justify-content-between align-items-center flex-wrap"
+      id="product-list">
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <footer id="footer" style="background-color: rgb(35, 47, 62);" class="d-flex flex-column align-items-center">
+    <div class=" w-100 text-light d-flex justify-content-center align-items-center "
+      style="height: 60px; background-color: rgb(55, 71, 90);">Back to Top</div>
+    <div class=" d-flex justify-content-between  align-items-center "
+      style="width: 70%; background-color: rgb(35, 47, 62); height:70%;">
+      <div class="  text-light w-25 h-50">
+        <h5 class="ps-4">Get to Know Us</h5>
+        <ul class="pt-2">
+          <li class="d-block pt-1">About Us</li>
+          <li class="d-block pt-1">Careers</li>
+          <li class="d-block pt-1">Press Releases</li>
+          <li class="d-block pt-1">Amazon Science</li>
+        </ul>
+      </div>
+
+      <div class=" text-light w-25 h-50">
+        <h5 class="ps-4">Connect with Us</h5>
+        <ul class="pt-2">
+          <li class="d-block pt-1">Facebook</li>
+          <li class="d-block pt-1">Twitter</li>
+          <li class="d-block pt-1">Instagram</li>
+        </ul>
+      </div>
+
+
+      <div class=" text-light w-25 h-50">
+        <h5 class="ps-4">Make Money with Us</h5>
+        <ul class="pt-2">
+          <li class="d-block pt-1">Sell on Amazon</li>
+          <li class="d-block pt-1">Sell under Amazon Accelerator</li>
+          <li class="d-block pt-1">Protect and Build Your Brand</li>
+          <li class="d-block pt-1">Amazon Global Selling</li>
+          <li class="d-block pt-1">Fulfilment by Amazon</li>
+          <li class="d-block pt-1">Advertise Your Products</li>
+          <li class="d-block pt-1">Amazon Pay on Merchants</li>
+
+
+        </ul>
+      </div>
+
+
+      <div class="  text-light w-25 h-50">
+        <h5 class="ps-4">Let Us Help You</h5>
+        <ul class="pt-2">
+          <li class="d-block pt-1">COVID-19 and Amazon</li>
+          <li class="d-block pt-1">Your Account</li>
+          <li class="d-block  pt-1">Returns Centre</li>
+          <li class="d-block pt-1">100% Purchase Protection</li>
+          <li class="d-block pt-1">Amazon App Download</li>
+          <li class="d-block pt-1">Help</li>
+
+        </ul>
+      </div>
+    </div><Br>
+    <div class="w-100 border border-1 border-secondary"></div>
+    
+    <p class="text-center text-light pt-3" style="font-size: 12px;">Australia&nbsp;&nbsp; Brazil&nbsp;&nbsp;
+      Canada&nbsp;&nbsp; China&nbsp;&nbsp; France&nbsp;&nbsp; Germany&nbsp;&nbsp; Italy&nbsp;&nbsp; Japan&nbsp;&nbsp;
+      Mexico &nbsp;&nbsp;Netherlands&nbsp;&nbsp; Poland &nbsp;&nbsp;Singapore&nbsp;&nbsp; Spain&nbsp;&nbsp;
+      Turkey&nbsp;&nbsp; United Arab Emirates <br>United Kingdom&nbsp;&nbsp; United States</p>
+
+  </footer>
+
+  <footer id="footer1" class="d-flex justify-content-center align-items-center">
+
+    <div class="w-50 h-100  flex-wrap d-flex justify-content-evenly align-items-center ms-5">
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">AbeBooks</h5>
+        <p class="text-secondary">Books, art<br>& collectibles</p>
+      </div>
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">Amazon Web Services</h5>
+        <p class="text-secondary">Scalable Cloud<br>Computing Services</p>
+      </div>
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">Audible</h5>
+        <p class="text-secondary">Download<br>Audio Books</p>
+      </div>
+
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">IMDb</h5>
+        <p class="text-secondary">Movies, TV<br>& & Celebrities</p>
+      </div>
+
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">Shopbop</h5>
+        <p class="text-secondary">Designer<br>Fashion Brands</p>
+      </div>
+
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">
+          Amazon Business</h5>
+        <p class="text-secondary">Everything For<br>Your Business</p>
+      </div>
+
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">Prime Now</h5>
+        <p class="text-secondary"> 2-Hour Delivery<br>on Everyday Items</p>
+      </div>
+
+      <div class="w-25 text-light" style="font-size: 10px;">
+        <h5 style="font-size: 12px;">Amazon Prime Music</h5>
+        <p class="text-secondary">100 million songs, ad-free<br>Over 15 million podcast episodes </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+<!-- slider  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<!-- tooltop -->
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+<!-- slider  -->
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+<script src="js/women.js"></script>
+
+</html>

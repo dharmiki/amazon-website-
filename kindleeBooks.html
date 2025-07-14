@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kindle eBooks</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .book-section {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    .book-card {
+      flex: 0 0 auto;
+      width: 150px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .book-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .rating {
+      color: #ffa41c;
+      font-size: 13px;
+    }
+
+    .price {
+      color: #B12704;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .more-to-explore {
+      margin-top: 40px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+
+    .more-to-explore a {
+      text-decoration: none;
+      color: #007185;
+      font-size: 14px;
+    }
+
+    .more-to-explore a:hover {
+      text-decoration: underline;
+    }
+  </style>
+    <link rel="stylesheet" href="women-wear.css">
+  <link rel="stylesheet" href="index.css">
+  <!-- bootstap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- over  -->
+  <!-- ICON  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- slider  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- tailwind  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- sweetalert  -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+  
+ 
+
+
+    <h1>Kindle eBooks</h1>
+    <A href="" style="font-size: 13px;">BestSellers</A>
+    <A href="" style="font-size: 13px;">kindle eBooks Deals</A>
+    <A href="" style="font-size: 13px;">kindle unlimited </A>
+    <A href="" style="font-size: 13px;">Prime Reading </A>
+    <A href="" style="font-size: 13px;">Indian Language eBooks</A>
+    <A href="" style="font-size: 13px;">kindle Exam central </A>
+    <A href="" style="font-size: 13px;">new and notable</A>
+    <A href="" style="font-size: 13px;">become an author</A>
+    <A href="" style="font-size: 13px;">free kindle apps </A>
+    <A href="" style="font-size: 13px;">ebook under 9</A>
+    <A href="" style="font-size: 13px;">eBooks under 29</A>
+    <A href="" style="font-size: 13px;">eBooks under 49</A>
+    <A href="" style="font-size: 13px;">eBooks under 99</A>
+    <A href="" style="font-size: 13px;">kindle support</A>
+
+  <h2>Best Sellers</h2>
+  <div class="book-section">
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/G/31/img21/Books/MayBB2025/Exam._SS300_QL85_FMpng_.png" alt="Dopamine Detox"/>
+      <div class="title">Dopamine Detox</div>
+      <div class="rating">★★★★☆ (14,810)</div>
+      <div class="price">₹99.00</div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/51Wp9RGArDL._SR480,440_.jpg" alt="Ikigai Kaizen"/>
+      <div class="title">Ikigai Kaizen</div>
+      <div class="rating">★★★★☆ (606)</div>
+      <div class="price">₹449.00</div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41Iq87tscwL._SR480,440_.jpg" alt="ChatGPT Millionaire"/>
+      <div class="title">ChatGPT Millionaire</div>
+      <div class="rating">★★★☆☆ (3,659)</div>
+      <div class="price">₹1620.00</div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41ThDim5KDL._SR480,440_.jpg" alt="Harry Potter"/>
+      <div class="title">Harry Potter</div>
+      <div class="rating">★★★★★ (1,27,599)</div>
+      <div class="price">₹308.75</div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41JQcXuUGML._SR480,440_.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+
+    
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/51Kxx05M1PL._SR480,440_.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+
+    
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41Iq87tscwL._SR480,440_.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+
+    
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/511tTCEM+oL.SR480,440.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+    
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/51zGWjjYugL.SR480,440.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+    
+    <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41ZMv4LvG9L.AC_SX250.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+      <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41yr4m3VRGL.AC_SX250.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+
+      <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/51UozE3624L.AC_SX250.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+      <div class="book-card">
+      <img src="https://m.media-amazon.com/images/I/41VDqnX74gL.SR480,440.jpg" alt="The Answer is No"/>
+      <div class="title">The Answer Is No</div>
+      <div class="rating">★★★★☆ (49,178)</div>
+      <div class="price">₹69.00</div>
+    </div>
+  </div>
+
+  <h2>More to Explore</h2>
+  <div class="more-to-explore">
+    <a href="#">Action and Adventure</a>
+    <a href="#">Mystery, Thriller and Suspense</a>
+    <a href="#">Exam Preparation</a>
+    <a href="#">Science Fiction & Fantasy</a>
+    <a href="#">Foreign Languages</a>
+    <a href="#">Health and Family</a>
+    <a href="#">Historical Fiction</a>
+    <a href="#">Humor & Entertainment</a>
+    <a href="#">Language, Linguistics and Writing</a>
+    <a href="#">Law</a>
+    <a href="#">Literature & Fiction</a>
+    <a href="#">Politics & Social Sciences</a>
+    <a href="#">Reference</a>
+    <a href="#">Religion & Spirituality</a>
+    <a href="#">Romance</a>
+    <a href="#">School Books</a>
+    <a href="#">Sciences, Technology & Medicine</a>
+    <a href="#">Society and Social Sciences</a>
+    <a href="#">Sports & Outdoors</a>
+    <a href="#">Textbooks</a>
+    <a href="#">Biographies & Memoirs</a>
+    <a href="#">Travel & Tourism</a>
+    <a href="#">Business & Money</a>
+    <a href="#">Calendars</a>
+    <a href="#">Teen & Young Adult</a>
+    <a href="#">Computers & Technology</a>
+    <a href="#">Crafts, Hobbies & Home</a>
+    <a href="#">Comics, Manga & Graphic Novels</a>
+  </div>
+
+ 
+
+</body>
+<!-- slider  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<!-- tooltop -->
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+<!-- slider  -->
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+</script>
+
+</html>

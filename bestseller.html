@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Bestsellers Clone</title>
+  <link rel="stylesheet" href="bestseller.css" />
+  <link rel="stylesheet" href="women-wear.css">
+  <link rel="stylesheet" href="index.css">
+ 
+</head>
+<style>
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    padding: 20px;
+  }
+
+  .parent {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .sidebar {
+    width: 220px;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+  }
+
+  .sidebar h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+  }
+
+  .sidebar ul li {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #007185;
+    cursor: pointer;
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .main-content h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .category {
+    margin-bottom: 40px;
+  }
+
+  .category h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .products {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    width: 180px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .card .rank {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .card .title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .card .rating {
+    font-size: 13px;
+    color: #ffa41c;
+    margin-bottom: 5px;
+  }
+
+  .card .price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #B12704;
+  }
+</style>
+
+<body>
+
+  
+  <div class="parent">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Any Department</h2>
+      <ul>
+        <li>Amazon Launchpad</li>
+        <li>Amazon Renewed</li>
+        <li>Apps & Games</li>
+        <li>Baby Products</li>
+        <li>Bags, Wallets and Luggage</li>
+        <li>Beauty</li>
+        <li>Books</li>
+        <li>Car & Motorbike</li>
+        <li>Clothing & Accessories</li>
+        <li>... (etc)</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1>Amazon Bestsellers</h1>
+
+      <!-- Category Section -->
+      <section class="category">
+        <h2>Bestsellers in Car & Motorbike</h2>
+        <div class="products">
+          <!-- Card -->
+          <div class="card">
+            <div class="rank">#11</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71skiRfsCcL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">FABTEC Waterproof Car Body Cover...</p>
+            <p class="rating">⭐⭐⭐⭐☆ (16,484)</p>
+            <p class="price">₹987.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51hf5q7g13L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71T2M3bz77L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41FYpIF+26L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71775fRr+gL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/410a9N3gxpL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#12</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81Bfad0h-fL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Balaclava Helmet Mask for Bikers...</p>
+            <p class="rating">⭐⭐⭐⭐ (7,112)</p>
+            <p class="price">₹249.00</p>
+          </div>
+          
+
+          <!-- Add more cards similarly -->
+        </div>
+      </section>
+
+      <!-- Another Category -->
+      <section class="category">
+        <h2>Bestsellers in Home & Kitchen</h2>
+        <div class="products">
+          <div class="card">
+            <div class="rank">#1</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61iX5I1ek2L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Mini Sealing Machine for Snacks...</p>
+            <p class="rating">⭐⭐⭐⭐ (2,472)</p>
+            <p class="price">From ₹210.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71QRv8xb0yL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71R2QnSdv+L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81IQvh43G8L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71CSBNtzaIL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51O+J5jnXcL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71jAO+Wnp4L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+       
+        </div>
+      </section>
+
+
+
+      <!-- Another Category -->
+      <section class="category">
+        <h2>Bestsellers in Beauty</h2>
+        <div class="products">
+          <div class="card">
+            <div class="rank">#1</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51O+J5jnXcL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Mini Sealing Machine for Snacks...</p>
+            <p class="rating">⭐⭐⭐⭐ (2,472)</p>
+            <p class="price">From ₹210.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71jAO+Wnp4L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61PA2P4KDCL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/418EwrvZQLL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/6128GffDPlL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://m.media-amazon.com/images/I/51SGoy22hTL.jpg" alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41jr41E77ZL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+         
+        </div>
+      </section>
+
+      <section class="category">
+        <h2>Bestsellers in Amazon Launchpad</h2>
+        <div class="products">
+          <div class="card">
+            <div class="rank">#1</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81dsWgzXLrL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Mini Sealing Machine for Snacks...</p>
+            <p class="rating">⭐⭐⭐⭐ (2,472)</p>
+            <p class="price">From ₹210.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61cjyX88PyL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81YeTj7siYL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61OAfDRFJzL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61m5dItC5xL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://m.media-amazon.com/images/I/61IAs-VxOdL.jpg" alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/712U09cEseL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          
+        </div>
+      </section>
+
+
+      <section class="category">
+        <h2>Bestsellers in Watches</h2>
+        <div class="products">
+          <div class="card">
+            <div class="rank">#1</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61ybeKQto8L._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Mini Sealing Machine for Snacks...</p>
+            <p class="rating">⭐⭐⭐⭐ (2,472)</p>
+            <p class="price">From ₹210.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51oNy5CTCOL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61V9NlP5unL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/61KkqKwwVRL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71R7AfsSLuL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/711NXCmUfbL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          <div class="card">
+            <div class="rank">#2</div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/81gfzrOzSJL._AC_UL450_SR450,320_.jpg"
+              alt="Product" />
+            <p class="title">Amazon Presto Garbage Bags...</p>
+            <p class="rating">⭐⭐⭐⭐⭐ (48,125)</p>
+            <p class="price">₹269.00</p>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+
+  </div>
+ 
+
+</body>
+<!-- slider  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<!-- tooltop -->
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+
+
+</html>

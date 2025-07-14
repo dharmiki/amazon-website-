@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<h1>My Cart</h1>
+<div id="cart-items"></div>
+
+<script>
+  fetch("http://localhost:3000/cart")
+    .then(response => response.json())
+    .then(cartItems => {
+      console.log(cartItems);
+      const cartContainer = document.getElementById("cart-items");
+      if (cartItems.length === 0) {
+        cartContainer.innerHTML = "<p>Your cart is empty.</p>";
+      } else {
+        cartContainer.innerHTML = cartItems.map(item => `
+          <div style="border:1px solid #ccc; margin:10px; padding:10px;">
+            <img src="${item.image}" style="width:150px;">
+            <h2>${item.title}</h2>
+            <p>${item.subtitle}</p>
+            <p>Price: $${item.price || 'N/A'}</p>
+            <button onclick="removeFromCart(${item.id})">Remove</button>
+          </div>
+        `).join('');
+      }
+    })
+    .catch(error => console.error('Error loading cart:', error));
+
+  function removeFromCart(id) {
+    fetch(`http://localhost:3000/cart/${id}`, {
+      method: "DELETE"
+    })
+    .then(() => {
+      alert("Product removed from cart");
+      window.location.reload(); // refresh cart after delete
+    })
+    .catch(error => console.error('Error removing item:', error));
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+ 
+  color: #fff;
+}
+
+.prime-container {
+ 
+   background: linear-gradient(to right, #051036, #0039a6);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.prime-left {
+  flex: 1;
+  padding: 2rem;
+  background-color: #002f6c;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.prime-left h2 {
+  font-size: 3.5rem;
+  color: #00bfff;
+  line-height: 1.2;
+  margin-left: 120px;
+}
+
+.prime-left h2 span {
+  font-size: 1.5rem;
+  display: block;
+  color: #fff;
+}
+
+.prime-left p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  margin-right: -600px;
+  margin-top: 200px;
+}
+
+.prime-left button {
+  background: #ffc107;
+  color: #000;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.prime-right {
+  flex: 2;
+  background: #f5f7fa;
+  color: #000;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-left: 150px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+thead th {
+  background-color: #dbe8ff;
+  padding: 1rem;
+  text-align: center;
+}
+
+thead th.highlight {
+  border: 2px solid #0073e6;
+  background-color: #e6f0ff;
+}
+
+tbody td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+
+.price-boxes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.price-boxes .box {
+  padding: 1rem 2rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.5rem;
+  background: #fff;
+  color: #000;
+}
+
+.price-boxes .box.highlight {
+  border-color: #0073e6;
+  background-color: #e6f0ff;
+}
+
+.box span {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.join-btn {
+  display: block;
+  margin: auto;
+  padding: 0.8rem 2rem;
+  background: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #0073e6;
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.faq-item {
+  border-top: 2px solid #ccc;
+}
+
+.faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  background-color: #f9f9f9;
+}
+
+.faq-answer {
+  padding: 0 15px 15px 15px;
+  display: none;
+  font-size: 19px;
+  color: #333;
+}
+
+.icon {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.prime-included-section {
+  text-align: center;
+  padding: 60px 20px;
+  color: #000;
+}
+
+.prime-included-section h2 {
+  font-size: 38px;
+  color: #0073e6;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature-box {
+  max-width: 300px;
+}
+
+.circle-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  background: #0073e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  font-size: 14px;
+  color: #333;
+}
+
+.more-benefits {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.more-benefits h2 {
+  font-size: 38px;
+  color: #0073e6;
+  margin-bottom: 40px;
+}
+
+.benefit-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  max-width: 300px;
+  text-align: center;
+  color: #000;
+}
+
+.benefit-item i {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.benefit-item h3 {
+  color: #0073e6;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.benefit-item p {
+  font-size: 14px;
+  color: #333;
+}
