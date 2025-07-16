@@ -156,75 +156,62 @@ body {
 </body>
   
   <script>
-    // Get the product ID from URL
-    const params = new URLSearchParams(window.location.search);
-    const productId = params.get("id");
-    console.log(params);
-    console.log(productId);
-    var carddata = {}
-    fetch(`http://localhost:3000/child/${productId}`)
-      .then((response) => response.json())
-      .then((product) => {
-        console.log(product);
-        carddata = product
-        console.log(carddata)
-        document.getElementById("product-details").innerHTML = `
-         <div class="product-page">
-        <!-- Left Column -->
-        <div  width="900px" class="border border-1">
-          <img class="" src="${carddata.image}" >
-        </div>
+     const params = new URLSearchParams(window.location.search);
+  const productId = params.get("id");
+  let productData = {};
 
-        <!-- Right Column -->
-        <div class="product-details ">
-          <h2 class="title">${carddata.title}</h2>
-          <p class="brand">${carddata.subtitle}</p>
-          <p class="brand">Brand: Nova Milk Frother</p>
-          <p class="rating">⭐⭐⭐⭐☆ (3,978 ratings)</p>
+  fetch(`db.json`)
+    .then((response) => response.json())
+    .then((data) => {
+      const p = data.child.find(el => el.id == productId);
+      if (!p) {
+        document.getElementById("product-details").innerHTML = "<p>Product not found.</p>";
+        return;
+      }
+      productData = p; // save for addToCart
 
-          <div class="price-box">
-            <p class="deal-price">₹251 <span class="discount">-69%</span></p>
-            <p class="mrp">M.R.P.: <s>₹799</s></p>
-            <p class="prime">Prime Day Deal</p>
+      document.getElementById("product-details").innerHTML = `
+        <div class="product-page">
+          <div class="product-images">
+            <img class="main-img" src="${p.image}">
           </div>
-
-          <button class="buy-btn" onclick='addToCart()'>Add to Cart</button>
-          <button class="buy-btn buy-now">Buy Now</button>
-
-          <ul class="features">
-            <li>✅ 10 days Replacement</li>
-            <li>✅ Amazon Delivered</li>
-            <li>✅ 1 Year Warranty</li>
-          </ul>
-
-          <div class="about">
-            <h3>About this item</h3>
-            <ul>
-              <li>Whisper Quiet Operation & Rechargeable Long-Lasting Performance</li>
-              <li>Revolutionary Dual Spring Mechanism</li>
-              <li>Ultimate Brewing Companion with Customizable Modes</li>
+          <div class="product-details">
+            <h2 class="title">${p.title}</h2>
+            <p class="brand">${p.subtitle}</p>
+            <p class="rating">⭐⭐⭐⭐☆ (3,978 ratings)</p>
+            <div class="price-box">
+              <p class="deal-price">₹251 <span class="discount">-69%</span></p>
+              <p class="mrp">M.R.P.: <s>₹799</s></p>
+              <p class="prime">Prime Day Deal</p>
+            </div>
+            <button class="buy-btn" onclick="addToCart()">Add to Cart</button>
+            <button class="buy-btn buy-now">Buy Now</button>
+            <ul class="features">
+              <li>✅ 10 days Replacement</li>
+              <li>✅ Amazon Delivered</li>
+              <li>✅ 1 Year Warranty</li>
             </ul>
+            <div class="about">
+              <h3>About this item</h3>
+              <ul>
+                <li>Whisper Quiet Operation & Rechargeable Long-Lasting Performance</li>
+                <li>Revolutionary Dual Spring Mechanism</li>
+                <li>Ultimate Brewing Companion with Customizable Modes</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
       `;
-      })
-      .catch((error) => console.error("Error loading product:", error));
+    })
+    .catch((error) => console.error("Error loading product:", error));
 
-    function addToCart() {
-      console.log();
-      fetch("http://localhost:3000/cart", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(carddata),
-      })
-        .then(res => res.json())
-        .then((res => {
-          console.log(res)
-          // alert("product is added to the card")
-          window.location.href = "card.html";
-        }))
-    }
+  function addToCart() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    cart.push(productData);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert("Added to cart!");
+    window.location.href = "card.html";
+  }
   </script>
 </body>
 

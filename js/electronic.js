@@ -46,15 +46,13 @@ const exampleModal = document.getElementById('exampleModal');
 exampleModal.addEventListener('show.bs.modal', resetOTPModal);
 
 
-fetch("http://localhost:3000/electronic")
+fetch("db.json")
   .then(response => response.json())
   .then(products => {
-    var pro = products
-    console.log(pro)
-    const productList = document.getElementById('product-list').innerHTML = prod(pro);
+    console.log(products.electronic)
+    const productList = document.getElementById('product-list').innerHTML = prod(products.electronic);
   })
   .catch(error => console.error('Error fetching products:', error));
-
 function prod(pro) {
   return pro.map((el, i) => {
     return `

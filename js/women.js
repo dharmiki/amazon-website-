@@ -46,12 +46,11 @@ const exampleModal = document.getElementById('exampleModal');
 exampleModal.addEventListener('show.bs.modal', resetOTPModal);
 
 
-fetch("http://localhost:3000/product")
+fetch("db.json")
   .then(response => response.json())
   .then(products => {
-    var pro = products
-    console.log(pro)
-    const productList = document.getElementById('product-list').innerHTML = prod(pro);
+    console.log(products.product)
+    const productList = document.getElementById('product-list').innerHTML = prod(products.product);
   })
   .catch(error => console.error('Error fetching products:', error));
 
@@ -63,6 +62,7 @@ function prod(pro) {
           <img src="${el.image}" class="w-[100%] h-[65%] p-3">
           <h6>${el.title}</h6>
           <p>${el.subtitle}</p>
+          <p>${el.price}</p>
         </div>
       </a>`;
   }).join("");
