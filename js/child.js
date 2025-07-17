@@ -7,6 +7,7 @@ function generateOTP() {
     return;
   }
   currentOTP = Math.floor(1000 + Math.random() * 9000).toString();
+  console.log(currentOTP)
   document.getElementById("generatedOtp").textContent = currentOTP;
   document.getElementById("otpSection").style.display = "block";
 }
