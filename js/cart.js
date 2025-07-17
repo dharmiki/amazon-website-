@@ -49,9 +49,9 @@ function removeFromCart(index) {
 }
 
 function price() {
-  var price = 0
 
   console.log(cartItems)
+  var price = 0
 
 
   cartItems.forEach((el, i) => {

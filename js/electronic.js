@@ -49,7 +49,7 @@ exampleModal.addEventListener('show.bs.modal', resetOTPModal);
 fetch("db.json")
   .then(response => response.json())
   .then(products => {
-    console.log(products)
+    console.log(products.electronic)
     const productList = document.getElementById('product-list').innerHTML = prod(products.electronic);
   })
   .catch(error => console.error('Error fetching products:', error));
